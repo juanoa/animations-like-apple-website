@@ -30,7 +30,7 @@ let sceneTitulo = new ScrollMagic.Scene({
 	.setTween(tituloAnim)
 	.addTo(controller);
 
-//Animacion rendimiento
+//Animacion ON rendimiento
 let rendimientoAnim = TweenMax.fromTo(
 	rendimiento,
 	3,
