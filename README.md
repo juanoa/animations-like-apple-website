@@ -7,5 +7,5 @@ Librerías utilizadas:
 ## Puedes probar el código desde la página de GitHub
 https://juanoa.github.io/animations-like-apple-website/
 
-## Más información en mi página web
+## Más información sobre el proceso de creación
 https://juanoa.com/animaciones-web-apple/
