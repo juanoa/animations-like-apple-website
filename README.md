@@ -4,8 +4,8 @@ Librerías utilizadas:
 * ScrollMagic
 * GSAP
 
-##Puedes probar el código desde la página de GitHub
+## Puedes probar el código desde la página de GitHub
 https://juanoa.github.io/animations-like-apple-website/
 
-##Más información en mi página web
+## Más información en mi página web
 https://juanoa.com/animaciones-web-apple/
