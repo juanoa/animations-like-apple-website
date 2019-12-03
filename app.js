@@ -16,7 +16,6 @@ let scene = new ScrollMagic.Scene({
 	triggerElement: intro,
 	triggerHook: 0
 })
-	.addIndicators() //Mostrar indicadores de inicio y final
 	.setPin(intro)
 	.addTo(controller);
 
