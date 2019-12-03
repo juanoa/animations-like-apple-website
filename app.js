@@ -1,6 +1,7 @@
 const intro = document.querySelector('.intro');
 const video = intro.querySelector('video');
-const text = intro.querySelector('h1');
+const titulo = intro.querySelector('.titulo');
+const rendimiento = intro.querySelector('.rendimiento');
 //END SECTION
 
 const section = document.querySelector('section');
@@ -19,15 +20,31 @@ let scene = new ScrollMagic.Scene({
 	.setPin(intro)
 	.addTo(controller);
 
-//Text animation
-let textAnim = TweenMax.fromTo(text, 3, { opacity: 1 }, { opacity: 0 });
+//titulo animation
+let tituloAnim = TweenMax.fromTo(titulo, 3, { opacity: 1 }, { opacity: 0 });
 
-let scene2 = new ScrollMagic.Scene({
+let sceneTitulo = new ScrollMagic.Scene({
 	duration: 3000,
 	triggerElement: intro,
 	triggerHook: 0
 })
-	.setTween(textAnim)
+	.setTween(tituloAnim)
+	.addTo(controller);
+
+//Animacion rendimiento
+let rendimientoAnim = TweenMax.fromTo(
+	rendimiento,
+	3,
+	{ opacity: 0 },
+	{ opacity: 1 }
+);
+let sceneRendimiento = new ScrollMagic.Scene({
+	duration: 1000,
+	triggerElement: intro,
+	triggerHook: 0
+})
+	.offset(3000)
+	.setTween(rendimientoAnim)
 	.addTo(controller);
 
 //Animacion del video

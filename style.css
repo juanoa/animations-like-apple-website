@@ -21,12 +21,20 @@ body {
 	position: absolute;
 }
 
-.intro h1 {
+.titulo {
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 80px;
+	color: white;
+}
+
+.rendimiento {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	font-size: 60px;
 	color: white;
 }
 
